@@ -13,7 +13,7 @@ import { AuthInterceptorService } from './auth/auth-iterceptor.service';
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptorService,
       multi: true,
-    },
+    }
   ],
 })
 export class CoreModule {}
