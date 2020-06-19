@@ -154,7 +154,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
           return "autumn";
       }
     }
-    console.log(getSeason(new Date(2150, 7, 21, 18, 36, 41, 841)));
+    // console.log(getSeason(new Date(2150, 7, 21, 18, 36, 41, 841)));
 
     // =============================================================
     // TASK Tower of Hanoi
@@ -276,7 +276,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
       },
     };
     
-    console.log(chainMaker.addLink('GHI').addLink(null).reverseChain().addLink(333).reverseChain().reverseChain().addLink(0).reverseChain().reverseChain().addLink('GHI').finishChain());
+    // console.log(chainMaker.addLink('GHI').addLink(null).reverseChain().addLink(333).reverseChain().reverseChain().addLink(0).reverseChain().reverseChain().addLink('GHI').finishChain());
 
     // Chain maker version 2
     function chain() {
